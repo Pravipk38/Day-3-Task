@@ -1,0 +1,68 @@
+Question 1:
+Json iterate in for loop:
+
+var json=[
+  {
+    "name": "Molecule Man",
+    "age": 29,
+    "secretIdentity": "Dan Jukes",
+  },
+  {
+    "name": "Madame Uppercut",
+    "age": 39,
+    "secretIdentity": "Jane Wilson",
+    
+  }
+]
+for (var i=0; i<json.length; i++)
+    console.log(json[i]);
+
+Json iterate in for loop:
+
+For(var key  in json)
+console.log(json[Key]);
+
+Json iterate of for loop:
+
+for (var key of json)
+    console.log(key);
+
+Json resume:
+
+var resume = "basics":{
+    "name": "Thomas Davis",
+    "label": "Web Developer",
+    "summary": "I’m a full stack web developer who can build apps from the ground up.",
+    "email": "email@gmail.com",
+    "location": {
+      "city": "chennai",
+      "countryCode": "india"
+    }}
+       "education": [
+    {
+      "endDate": "2009-12-12",
+      "startDate": "2008-02-12",
+      "area": "Software Engineering (incomplete)",
+      "studyType": "Bachelors",
+      "institution": "The University of Queensland"
+    ]}
+       "skills": [
+    {
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS / BEM / Styled Components",
+        "Javascript / Typescript",
+        ]}}
+     "work": [
+    {
+      "name": "Guvi",
+      "location": "chennai",
+      "position": "SJavascript Developer",
+      "startDate": "2022-11-05",
+      "highlights": ["React", "Redux", "SCSS", "Product"]
+       ]}
+
+Console.log(resume);
+
+
+
